@@ -16,6 +16,7 @@
 
     <%= render 'layouts/header' %>
     <%= render 'layouts/alerts' %>
+    <%= render 'layouts/boxes' if user_signed_in? %>
     
     <div class="container-fluid">
       <%= yield %>
